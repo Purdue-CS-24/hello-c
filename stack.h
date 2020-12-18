@@ -5,8 +5,8 @@ typedef struct Node Node;
 
 struct Node
 {
-    int value;
-    Node *next;
+	int value;
+	Node *next;
 };
 
 void push(int value);
